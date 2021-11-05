@@ -52,6 +52,7 @@ async function getQuotes() {
         newQuote();
     } catch (error) {
         // Catch Error Here
+        alert(error);
     }
 }
 // Tweet Quote
